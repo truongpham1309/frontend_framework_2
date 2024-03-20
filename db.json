@@ -1,0 +1,79 @@
+{
+  "products": [
+    {
+      "id": "83e5",
+      "name": "products 4 update 2",
+      "price": "2534",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710856000/react_image/vbxldpakol3z1wz2z7dg.png"
+    },
+    {
+      "id": "6c76",
+      "name": "san pham 5 ",
+      "price": "132",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710844222/react_image/ug3ratqcczjfev7twaki.png"
+    },
+    {
+      "id": "6c83",
+      "name": "products 7 update",
+      "price": "234",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710844234/react_image/gs9w0ab01ci3nklefnfh.png"
+    },
+    {
+      "id": "20b0",
+      "name": "new products update",
+      "price": "355",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710844297/react_image/wdyhyz4oml7ehe4ghitv.png"
+    },
+    {
+      "id": "2358",
+      "name": "products 1",
+      "price": "2134",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710844255/react_image/xaf2vjqfcxqzple9dyjz.png"
+    },
+    {
+      "id": "2d38",
+      "name": "ighuh",
+      "price": "6",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710856101/react_image/u1sixfbuqheqkqc8mnll.png"
+    },
+    {
+      "id": "03fb",
+      "name": "sds",
+      "price": "23",
+      "files": {
+        "0": {}
+      },
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710824528/react_image/pj4kdhurqhi0ahcexbo7.jpg"
+    },
+    {
+      "id": "73f3",
+      "name": "products 1",
+      "price": "4536",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710824586/react_image/zxsrlc0d7wbu3hrokw4j.jpg"
+    },
+    {
+      "id": "5d0a",
+      "name": "giấy khen",
+      "price": "412",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710827923/react_image/mhs8u9dflup4applkiyc.png"
+    },
+    {
+      "id": "a695",
+      "name": "dvzxvz",
+      "price": "567",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710834104/react_image/w2vesxe5spjwy6xr50ty.png"
+    },
+    {
+      "id": "dedf",
+      "name": "prokcdc",
+      "price": "1",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710834638/react_image/eggbwsplx67agivg118v.png"
+    },
+    {
+      "id": "9943",
+      "name": "Pham Dinh Truong",
+      "price": "23424",
+      "images": "https://res.cloudinary.com/dhfryzrce/image/upload/v1710857171/react_image/vihm245hwdz3x5piq9hl.jpg"
+    }
+  ]
+}

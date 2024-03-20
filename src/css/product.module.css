@@ -1,0 +1,22 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.form {
+  margin: 0 5%;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+/* Bao bọc phạm vi của CSS của Bootstrap */
+.product_bootstrap {
+  @import 'bootstrap/dist/css/bootstrap.min.css';
+}
+ 
