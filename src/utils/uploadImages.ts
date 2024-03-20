@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const uploadImage = async (files: any[]) => {
     const PRESET_NAME: string = 'react_wd18204';
-    const CLOUD_NAME: string = '';
+    const CLOUD_NAME: string = 'dhfryzrce';
     const FOLDER_NAME: string = 'react_image';
 
     const api: string = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`;
@@ -18,7 +18,7 @@ export const uploadImage = async (files: any[]) => {
 }
 
 export const deleteImageByURL = async (imageUrl: string) => {
-    const CLOUD_NAME: string = '';
+    const CLOUD_NAME: string = 'dhfryzrce';
     const API_KEY: string = '677898617765499';
     const API_SECRET: string = '4tV6YfM-B8ZBjroFhvwC7zLpJAU';
     try {
