@@ -2,7 +2,7 @@ import { TProduct } from "./showName"
 
 export type State = {
     products: TProduct[];
-    loading: boolean,
+    isLoading: boolean,
     error: string | null,
 }
 
