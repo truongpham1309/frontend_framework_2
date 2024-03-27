@@ -1,11 +1,10 @@
 import Product from "./Product";
 import "./../css/product.module.css";
-import { getAllProducts } from "../services/productService";
 import { TProduct } from "../types/showName";
 import LoadingComponent from "./LoadingComponent";
-import { useQuery } from "@tanstack/react-query";
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
+import { useProductsQuery } from "../hooks/useProductsQuery";
 
 const ProductsList = () => {
 
@@ -17,11 +16,7 @@ const ProductsList = () => {
     //     })()
     // }, [])
 
-    const { data: products, isLoading, isError } = useQuery(
-        {
-            queryKey: ['products'],
-            queryFn: getAllProducts
-        });
+    const { data: products, isLoading, isError } = useProductsQuery()
 
     if (isLoading) return (<><LoadingComponent /></>)
     if (isError) return (<>Error</>)

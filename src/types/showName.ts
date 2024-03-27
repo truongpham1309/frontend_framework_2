@@ -4,8 +4,8 @@ export type showName = {
 }
 
 export type TProduct = {
-    id: number,
+    id?: number,
     name: string,
     price: number,
-    images: string
+    image: string | []
 }

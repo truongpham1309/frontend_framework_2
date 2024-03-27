@@ -10,7 +10,7 @@ export const getAllProducts = async () => {
     }
 }
 
-export const getDetailProductByID = async (id: number) => {
+export const getDetailProductByID = async (id: string) => {
     try {
         const { data } = await axios.get(`/products/${id}`);
         return data;
@@ -19,7 +19,7 @@ export const getDetailProductByID = async (id: number) => {
     }
 }
 
-export const createProduct = async (product: Omit<TProduct, "id">) => {
+export const createProduct = async (product: TProduct) => {
     try {
         const { data } = await axios.post('/products', product);
         return data;
@@ -37,10 +37,9 @@ export const updateProductByID = async (product: TProduct) => {
     }
 }
 
-export const deleteProductByID = async (id: number) => {
-    // if(!confirm('Are you sure you want to delete this product?')) return
+export const deleteProductByID = async (product: TProduct) => {
     try {
-        await axios.delete(`/products/${id}`);
+        await axios.delete(`/products/${product.id}`);
     } catch (error) {
         console.log(error);
     }
